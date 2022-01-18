@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+<body>
+
+   {{>navbar}}
+ {{!-- hero section --}}
+   <div class="container_fluid mt-5">
+     <div class="row">
+       <div class="col-md-10 col-12 mx-auto">
+         <div class="row">
+           <div class="col-md-6 col-12 hero text order-md-0 order-1 d-flex justify-content-center align-items-left flex-column">
+             <h1 class="main_head">WE WILL HELP YOU TO</h1>
+             <h1 class="sec_head">GROW YOUR BUSINESS</h1>
+             <p class="para_ji">We are the team of <span class="bold-style">Professional Developer</span></p>
+             <button class="btn_ji">Read More</button>
+
+           </div>
+           <div class="col-md-6 col-12 hero text order-md-1 order-0">
+             <figure>
+               <img src="imagesdyna/mult.png" alt="hero_img">
+             </figure>
+             
+           </div>
+         </div>
+
+       </div>
+     </div>
+
+   </div>
+
+  {{!-- hero ends --}}
+  {{>about}}
+
+  {{!-- service start --}}
+  <div class="container_fluid mt-5 about-style" id="aboutid">
+     <div class="row">
+       <div class="col-md-10 col-12 mx-auto">
+         <h1 class="text-center main-heading">Our Services</h1>
+       <p class="text-center sub-heading">grow your business with us</p>
+         <div class="row">
+
+         </div>
+       </div>
+     </div>
+</div>
+
+  {{!-- service end --}}
+  <script src="../jq/jquery.js" type="text/javascript"></script>
+  <script src="../js/bootstrap.js" type="text/javascript"></script>
+</body>
+</html>
